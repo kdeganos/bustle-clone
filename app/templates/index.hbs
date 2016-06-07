@@ -1,3 +1,17 @@
+{{#carousel-container transition-interval=400}}
+  {{#carousel-body}}
+    {{#each model as |article index|}}
+      {{#if index}}
+        {{#carousel-item}}
+          {{article-tile article=article}}
+        {{/carousel-item}}
+      {{/if}}
+    {{/each}}
+  {{/carousel-body}}
+  {{carousel-arrow direction="left" class="line-arrow left"}}
+  {{carousel-arrow direction="right" class="line-arrow right"}}
+{{/carousel-container}}
+
 {{#each model as |article|}}
   {{article-tile article=article}}
 {{/each}}

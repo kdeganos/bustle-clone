@@ -1,0 +1,14 @@
+<div class="col-sm-4">
+  {{#link-to 'article' article.id}}
+    <div class="article-image">
+      <img src={{article.image}} alt={{article.headline}}>
+    </div>
+    <div class="article-headline">
+      {{article.headline}}
+    </div>
+  {{/link-to}}
+  <hr>
+  <div class="article-author">
+    {{article.author}}
+  </div>
+</div>

@@ -1,0 +1,29 @@
+.nav-links {
+  display: block;
+  background-color: transparent;
+  float: left;
+  height: 100%;
+  overflow: visible;
+  position: static;
+  transition: none;
+  transform: none;
+  width:auto;
+  z-index: -1;
+}
+
+.article-image img{
+  height: 250px;
+  width: 250px;
+}
+
+.article-headline {
+  margin-top: 7px;
+}
+
+.article-author {
+  margin-top: -7px;
+}
+
+.article-header img{
+  width: 75%;
+}
